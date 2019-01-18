@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/competitons" />
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv663684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/basic"
+                        android:text="Competition: BUSINESS PLAN "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="22sp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:background="@drawable/textviewstyle"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv6684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+
+                    <LinearLayout
+                        android:id="@+id/ll7763163"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="INTRODUCTION"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="Business Plan Competition is designed to encourage innovation and entrepreneurship by engaging students and providing an opportunity to develop and pursue their business ideas.The Competition will reward business models and plans that are judged by an independent panel as most innovative, complete and most likely to result in successful, high-growth ventures that would create new jobs.
+
+The Competition is organized and governed by the E-SUMMIT, IIT Bhubaneswar.
+
+Competition prizes are scaled to provide larger cash prizes for business PLANS, which are defined by the Competition as being more developed and closer to commercialization, and smaller cash prizes for business MODELS."
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Event Format"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Entry Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="The submission will be judged according to the following criteria: "
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.Is the business financially feasible?
+
+2.Quality of products, services and/or solutions
+
+3.Market opportunities and competition
+
+4.Team qualifications
+
+5.Overall attractiveness of the venture
+" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Rules"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.registration fee: 100 per head
+
+2.Business plans may be submitted by individuals or by teams.
+
+3.There must not be more than 3 in a team.
+
+4.A team can submit more than one business plan/idea after registration but in doing so, it must register separately for each submission. The same email-id and/or team name cannot be used for doing so.
+
+5.A team can submit more than one business plan/idea after registration but in doing so, it must register separately for each submission. The same email-id and/or team name cannot be used for doing so.
+
+6.Each member of the Competition team must actively participate in the formal presentation of the plan
+
+7.Each team will need to bring its own laptop computer that can be connected to a projector.
+
+8.Teams should bring soft copy for presentation and Hard copy while attending competition.
+
+ "
+                            />
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

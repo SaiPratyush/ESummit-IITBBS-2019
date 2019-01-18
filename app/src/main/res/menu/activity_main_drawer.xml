@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@drawable/ic_mic_black_24dp"
+            android:title="Speakers" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_drive"
+            android:icon="@drawable/ic_drive_eta_black_24dp"
+            android:title="Investors Drive" />
+        <item
+            android:id="@+id/nav_eday"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="E-day"/>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Team"/>
+        <item
+            android:id="@+id/nav_sponsers"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/nav_ca"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="campus Ambassador"/>
+        <item
+            android:id="@+id/nav_Schedule"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Schedule"/>
+    </group>
+
+    <item android:title="Social Networks">
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_world"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook_app_logo"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/ic_youtube"
+                android:title="YouTube" />
+
+        </menu>
+    </item>
+
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/ic_more_black_24dp"
+                android:title="More" />
+
+
+
+</menu>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/competitons" />
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv1639"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="competitions"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/textviewstyle"/>
+                </android.support.v7.widget.CardView>
+
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cv178"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/ll298"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickadvert">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="Advertorial(Advertisement making)"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:text="E-summit, as a culture of IIT Bhubaneswar, has proved its worth in depleting the Chasm that exists between Entrepreneurship and management. It is the stage for future Industry leaders and Entrepreneurs to exercise their skills, putting forward the Theme,'Fostering a passel of innovators '. IIT Bhubaneswar made a remarkable attempt to take students into the Entrepreneurial world and encourage them to be Entrepreneurs."
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cv1777778"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/ll29778"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickdesign">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="Entrepreneurial Ideation"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="Entrepreneurial ideation is organized with an aim to encourage participants and provide an opportunity that can transform their innovation - something as simple and small scale initiative as their summer project or a research endeavour or some random innovative idea that can be converted into a business . A very broad concept, it is essentially the efficient and effective generation and development of ideas through a process that leads to new products and services. To the short, any innovative idea which can be feasible to be converted into a profitable market is welcomed."
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cv17777978"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/ll299778"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickstock">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="Stock wars"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="Share market investment is the competition which brings out the bull and bear amongst the players, our shareholders. But there is no risk in speculation as we deal with virtual money. So speculators, here is the opportunity in E-Summit'19 to showcase your skills and get rewarded."
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cvv1777778"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/lll29778"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickipl">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="IPL auction"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="Ever thought what would you do if you got a chance to build your own IPL team. To use your knowledge of the 'Big Game' and your sixth sense to create the perfect team that goes on to lift the coveted Trophy. How good are you in managing your money? Explore yourself in the player auction which is an IPL-like auction event. Prove that you are the best investor making the right investment decision. "/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cvv177r7778"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/lllw29778"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickbiz">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="Biz quiz"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="Biz quiz is the quiz competition based on latest business and economics. If you are burgeon on the business section of the news every day. There is a chance to showcase your knowledge through E-SUMMIT'19."
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cvv17774778"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/lll294778"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickpitch">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="Pitch Your Product"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="E-Summit '19, IIT Bhubaneswar presents Pitch your product ! A competition for entrepreneurial enthusiasts. Pitch your Product is event to provide participants with an opportunity that can transform their innovation - something as simple and small scale initiative as their summer project or a research endeavor - into real world entrepreneurial ideas.Here, we examine your ability to evaluate the market, customer needs, product usability. Your plan of action to safeguard the intellectual rights of your product (majorly by creating entry barrier) and your future research goals associated with the same product or plans to launch parallel products. So speculators, here is the opportunity in E-Summit'19 to showcase your skills and get rewarded. "
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/cvv17777378"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+
+                        <LinearLayout
+                            android:id="@+id/lll297378"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical"
+                            android:onClick="onClickb">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:text="B-plan"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="22sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:background="@drawable/textviewstyle"/>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:fontFamily="@font/basic"
+                                android:textSize="16sp"
+                                android:layout_margin="10dp"
+                                android:text="Business Plan Competition is designed to encourage innovation and entrepreneurship by engaging students and providing an opportunity to develop and pursue their business ideas.The Competition will reward business models and plans that are judged by an independent panel as most innovative, complete and most likely to result in successful, high-growth ventures that would create new jobs"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/basic"
+                                android:textAlignment="center"
+                                android:textSize="19sp"
+                                android:layout_margin="10dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:text="-read more"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="10dp"
+
+                        android:id="@+id/po"
+                        android:elevation="5dp"
+                        android:background="@drawable/textviewstyle">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:onClick="onClicksia">
+                        </LinearLayout>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Apply"
+                            android:layout_gravity="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:background="@drawable/buttonstylethree"
+
+                            />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

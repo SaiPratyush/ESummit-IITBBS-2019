@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/competitons" />
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv663684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/basic"
+                        android:text="Competition: Stock Wars "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="22sp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:background="@drawable/textviewstyle"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv6684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+
+                    <LinearLayout
+                        android:id="@+id/ll7763163"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="INTRODUCTION"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="E-Summit '19, IIT Bhubaneswar presents Stock Wars, A competition which brings out the bull and bear amongst the players, our shareholders. But there is no risk in speculation as we deal with virtual money. So speculators, here is the opportunity in E-Summit'19 to showcase your skills and get rewarded."/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Event Format"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="First Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.A Quiz on general Stock Market.
+
+2.Top 10 teams selected for Round 2 based on the score gained by each team.
+"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Second Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text=" 50 Stocks, some of them belonging to fortune 500 companies will be auctioned. "
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Final round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text=" For Final Round: Judgment will be based on following:
+
+1.Net value of the portfolio designed.
+2.Extra points for diversified portfolio.
+3.Extra points for number of Fortune 500 Companies traded.
+
+The money left will be considered as gold ETF."
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Prizes"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="The prize money comprises of INR10K will be awarded to the winners as follows:
+
+First Prize :: 5000
+Second Prize :: 3000
+Third Prize :: 2000
+
+Registration Fee : Rs. 100"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="RULES"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="Each team must contain minimum of 2 members and maximum of 4 members.
+
+No player should be a part of two or more teams. If so, both the teams will be disqualified.
+
+All the team members should be present for all rounds.
+
+The decision of the judges will be final and no contentions are encouraged.
+"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="EVALUATION PROCEDURE"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="The two teams with the highest sum at the end of second round will be the winners."
+                            />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

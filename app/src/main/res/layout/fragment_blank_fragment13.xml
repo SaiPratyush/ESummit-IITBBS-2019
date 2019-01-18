@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/competitons" />
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv663684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/basic"
+                        android:text="Competition: BIZ Quiz"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="22sp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:background="@drawable/textviewstyle"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv6684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+
+                    <LinearLayout
+                        android:id="@+id/ll7763163"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="INTRODUCTION"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="E-Summit '19, IIT Bhubaneswar presents BIZ Quiz. A quiz for financial enthusiasts. A business quiz to enhance the knowledge of the aspirants with the motive of providing edutainment. If you are burgeon on the business section of the news frequently, then this is the chance for you to showcase your potential through Esummit'19."/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Event Format"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Entry Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.No team should exceed more than 4 members
+
+2.This is a Written round of 20 questions
+
+3.In case of tie between 2 or more teams, further 5 questions will be asked for final selection.
+
+4.5 teams are promoted to next round based on their performance in this round."
+ />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Final Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Round 1: Questionnaire Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.Three questions Will be asked to each team.
+
+2.For correct answer 10 marks will be given.
+
+3.Passing of the question to the next team is allowed. Five marks will be given to the next team if the answer is correct.
+
+4.You have only 30 seconds to answer.
+ "
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text=" Round 2: Buzzer Round"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="1.A question will be asked and the team who presses the buzzer first will answer first.
+
+2.10 marks for the correct answer.
+
+3.Minus 5 marks for the wrong answer or if the team doesn't answer after pressing the buzzer.
+
+4.No forwarding.
+
+5.30 seconds are allowed for answering each question.
+
+6.At the end of this round the leading 4 teams will be qualified for the final round.
+"
+                            />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

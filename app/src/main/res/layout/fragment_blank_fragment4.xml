@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/imgone" />
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv11778"
+            android:elevation="5dp"
+            android:background="@drawable/textviewstyle">
+            <LinearLayout
+                android:id="@+id/ll11271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/presents"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:textSize="16sp"
+
+                    android:textAlignment="center"
+                    android:text="Presents"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/textviewstyle"
+                    android:layout_margin="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="E-SUMMIT 2K19"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="18 - 20 th JAN 2019"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv1178"
+            android:elevation="5dp"
+            android:background="@drawable/textviewstyle">
+
+            <LinearLayout
+                android:id="@+id/ll1171"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="Theme"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:background="@drawable/textviewstyle"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/theme"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:textSize="16sp"
+                    android:layout_margin="10dp"
+                    android:text="@string/lom"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv66"
+            android:elevation="5dp"
+            android:background="@drawable/textviewstyle">
+
+        <LinearLayout
+            android:id="@+id/ll77"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="22sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="@drawable/textviewstyle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/basic"
+                android:text="The Annual Entrepreneurship Conclave of IIT Bhubaneswar"
+                android:textAlignment="center"
+                android:textSize="19sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/basic"
+                android:text="E-summit, as a culture of IIT Bhubaneswar, has proved its worth in depleting the Chasm that exists between Entrepreneurship and management. It is the stage for future Industry leaders and Entrepreneurs to exercise their skills, putting forward the Theme,'Fostering a passel of innovators '. IIT Bhubaneswar made a remarkable attempt to take students into the Entrepreneurial world and encourage them to be Entrepreneurs."
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv78"
+            android:elevation="5dp"
+            android:background="@drawable/textviewstyle">
+
+            <LinearLayout
+                android:id="@+id/ll71"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="Director's Message"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:background="@drawable/textviewstyle"/>
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/director" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="@string/iit_bhubaneswar_is_swiftly_making_remarkable_progress_on_academic_front_and_continuously_striving_for_entrepreneurship_development_in_the_society_entrepreneurship_summit_a_three_day_annual_entrepreneurship_conclave_of_iit_bhubaneswar_plays_a_key_role_in_passing_core_values_to_the_society_after_accomplishing_the_successful_edition_of_e_summit_in_the_month_of_january_2018_e_summit_2019_extends_support_and_encouragement_to_all_the_innovators_and_start_up_enthusiasts_in_its_forthcoming_edition_with_the_theme_fostering_a_passel_of_innovators_we_initiated_this_edition_of_e_summit_with_the_flagship_event_e_talk_on_the_topic_entrepreneurship_and_innovation_delivered_by_mr_arjun_malhotra_cofounder_of_hcl_in_the_month_of_september_2018_this_year_s_e_summit_is_coming_with_an_intra_college_competition_called_entrepreneurial_ideation_where_students_are_encouraged_to_provide_solutions_to_real_life_start_up_problems_a_new_event_called_creative_entrepreneurs_is_added_in_this_year_s_edition_in_which_entrepreneurs_from_diversified_sectors_such_as_art_music_etc_will_also_be_sharing_their_experiences_few_more_new_competitions_workshops_and_events_are_being_added_which_will_motivate_the_students_of_iit_bhubaneswar_to_learn_about_innovation_and_its_importance_through_e_summit_19_the_importance_of_innovation_at_the_undergraduate_level_and_motivation_to_withstand_strong_willpower_against_odd_circumstances_in_this_competitive_world_will_be_discussed_with_these_words_i_am_pleased_to_announce_the_aforementioned_proposed_theme_of_this_year_s_e_summit_and_wish_all_the_best_to_the_organisers_participants_and_visitors_of_this_event"
+                    android:textSize="16sp"
+                    android:layout_margin="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="- Prof.Ratnam.V.Raja Kumar
+Director, IIT Bhubaneswar"
+                    android:textAlignment="center"
+                    android:textSize="19sp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv178"
+            android:elevation="5dp"
+            android:background="@drawable/textviewstyle">
+
+            <LinearLayout
+                android:id="@+id/ll171"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="Chairman's Message"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:background="@drawable/textviewstyle"/>
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ankur" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:textSize="16sp"
+                    android:layout_margin="10dp"
+                    android:text="@string/kim"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/basic"
+                    android:text="- Dr. Ankur Gupta
+Chairman, E-Summit'19"
+                    android:textAlignment="center"
+                    android:textSize="19sp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+    </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

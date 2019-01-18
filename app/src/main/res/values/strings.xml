@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Esummit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="website">http://e-summit-iitbbs.com/</string>
+    <string name="youtube">https://www.youtube.com/channel/UC3gKo28mm66VcJs-vsFggZg</string>
+    <string name="facebook">https://www.facebook.com/centrepreneurship/</string>
+    <string name="ca">http://ca.e-summit-iitbbs.com/</string>
+    <string name="drive">http://e-summit-iitbbs.com/main/investors_drive</string>
+    <string name="iit_bhubaneswar_is_swiftly_making_remarkable_progress_on_academic_front_and_continuously_striving_for_entrepreneurship_development_in_the_society_entrepreneurship_summit_a_three_day_annual_entrepreneurship_conclave_of_iit_bhubaneswar_plays_a_key_role_in_passing_core_values_to_the_society_after_accomplishing_the_successful_edition_of_e_summit_in_the_month_of_january_2018_e_summit_2019_extends_support_and_encouragement_to_all_the_innovators_and_start_up_enthusiasts_in_its_forthcoming_edition_with_the_theme_fostering_a_passel_of_innovators_we_initiated_this_edition_of_e_summit_with_the_flagship_event_e_talk_on_the_topic_entrepreneurship_and_innovation_delivered_by_mr_arjun_malhotra_cofounder_of_hcl_in_the_month_of_september_2018_this_year_s_e_summit_is_coming_with_an_intra_college_competition_called_entrepreneurial_ideation_where_students_are_encouraged_to_provide_solutions_to_real_life_start_up_problems_a_new_event_called_creative_entrepreneurs_is_added_in_this_year_s_edition_in_which_entrepreneurs_from_diversified_sectors_such_as_art_music_etc_will_also_be_sharing_their_experiences_few_more_new_competitions_workshops_and_events_are_being_added_which_will_motivate_the_students_of_iit_bhubaneswar_to_learn_about_innovation_and_its_importance_through_e_summit_19_the_importance_of_innovation_at_the_undergraduate_level_and_motivation_to_withstand_strong_willpower_against_odd_circumstances_in_this_competitive_world_will_be_discussed_with_these_words_i_am_pleased_to_announce_the_aforementioned_proposed_theme_of_this_year_s_e_summit_and_wish_all_the_best_to_the_organisers_participants_and_visitors_of_this_event">IIT Bhubaneswar is swiftly making remarkable progress on academic front and continuously striving for entrepreneurship development in the society Entrepreneurship Summit a Three-day Annual Entrepreneurship Conclave of IIT Bhubaneswar, plays a key role in passing core values to the society. After accomplishing the successful edition of E-Summit in the month of January-2018, E-Summit- 2019 extends support and encouragement to all the innovators and start-up enthusiasts in its forthcoming edition with the theme “Fostering a Passel of Innovators”. We initiated this edition of E-summit with the flagship event “E-Talk” on the topic “Entrepreneurship and Innovation” delivered by Mr. Arjun Malhotra, Cofounder of HCL in the month of September 2018. This year’s E-Summit is coming with an Intra College competition called “Entrepreneurial Ideation”, where students are encouraged to provide solutions to real life start-up problems. A new event called “Creative Entrepreneurs” is added in this year’s edition in which Entrepreneurs from diversified sectors such as Art, Music etc. will also be sharing their experiences. Few more new competitions, workshops and events are being added which will motivate the students of IIT Bhubaneswar to learn about Innovation and its importance. Through E-Summit’19, the importance of innovation at the undergraduate level and motivation to withstand strong willpower against odd circumstances in this competitive world, will be discussed. With these words, I am pleased to announce the aforementioned proposed theme of this year’s E-summit and wish all the best to the organisers, participants and visitors of this event.</string>
+    <string name="kim"><![CDATA[E-Summit at IIT Bhubaneswar provides a platform for the interaction among venture capitalists, seasoned & upcoming entreprenuers, academia and younger minds. The Summit involves participation from esteemed business leaders and provides an opportunity for the startups to access IIT Bhubaneswar\'s talent pool. E-Summit includes vision night in which experienced delegates from various fields will motivate young work force towards initiating their entrepreneur journey. We Cordially invite you, your family and friends to various events of E-Summit-2019]]></string>
+    <string-array name="array">
+        <item>My Location</item>
+        <item>community Center</item>
+        <item>Mahanadi Hall of Residence</item>
+        <item>Subarnarekha Hall of Residence</item>
+        <item>Shopping Complex</item>
+        <item>Main Building</item>
+        <item>SES-School of Electrical Sciences</item>
+        <item>LBC-Lab Complex</item>
+        <item>Food Canteen</item>
+
+    </string-array>
+    <string name="your">Link :<u>https://github.com/lucifer0624/Esummit-2k19-App</u>.</string>
+    <string name="es">Link :<u>http://www.e-summit-iitbbs.com/</u>.</string>
+    <string name ="cca">Link:<u>http://ca.e-summit-iitbbs.com/</u>.</string>
+    <string name="lom">Entrepreneurship offers a viable and proven pathway to economic growth and personal fulfillment. However, the number of individuals engaged in entrepreneurial behaviors remains low. This discrepancy between entrepreneurial attitudes and action underscores the need for programs that foster the development of entrepreneurship in today\'s youth.Fostering entrepreneurship means channelling entrepreneurial drive into a dynamic process which takes advantage of all the opportunities the economy can provide. Our intention in having This theme is to bring together different facets of issues surrounding entreprenuership in the era of innovation. The relevant issue not only include innovation on products and services but also on process and strategy.E-Summit\'19 aims embed the culture of entreprenuership in the young minds to create a better future.</string>
+</resources>

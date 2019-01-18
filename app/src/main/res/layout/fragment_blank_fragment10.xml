@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/competitons" />
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv663684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/basic"
+                        android:text="Competition: Entrepreneurial ideation "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="22sp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:background="@drawable/textviewstyle"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/cv6684561"
+                    android:elevation="5dp"
+                    android:background="@drawable/textviewstyle">
+
+                    <LinearLayout
+                        android:id="@+id/ll7763163"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="INTRODUCTION"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="To all the innovative minds and who has the capacity to provide global level solutions to the Start-ups, here is a golden opportunity for you E-Summit 19 comes up with an Intercollege competition called Entrepreneurial ideation This time we are in your college to conduct an exam to choose the best entrepreneurial minds. "/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Event Format"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="22sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:background="@drawable/textviewstyle"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Round 1"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="First round will be conducted in your college and we pick top 5 people from each college and you will be representing your college in the second round which will be held on 19/01/2019 at IIT Bhubaneswar.They will get certificates , goodies and free passes to all the events"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Round 2"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:textSize="16sp"
+                            android:layout_margin="10dp"
+                            android:text="Top 3 participants from the second round can win exciting prizes worth 10K. Come forward , participate who knows there might be an Entrepreneur inside you ."
+                            />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

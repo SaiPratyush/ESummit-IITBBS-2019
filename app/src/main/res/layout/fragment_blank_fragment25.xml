@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment25">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/basic"
+        android:lineSpacingExtra="40sp"
+        android:text="More"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_above="@+id/tvvvvv"
+        android:fontFamily="@font/basic"
+        android:text="Go Through The Link Below For Harcoded Files of This App on Github"
+        android:textAlignment="center"
+
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvvvvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+android:layout_above="@+id/goo"
+        android:text="@string/your"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/goo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/basic"
+        android:layout_above="@+id/link2"
+        android:text="Go Through The Link Below For More Updated Details On Esummit-2k19"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+    android:id="@+id/link2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="@string/es"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/link2"
+        android:fontFamily="@font/basic"
+        android:text="Go Through The Link Below For More Updated Details On Ca's"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+android:layout_below="@+id/left"
+        android:layout_marginBottom="10dp"
+        android:text="@string/cca"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvv"
+        android:layout_width="174dp"
+        android:layout_height="98dp"
+        android:background="@drawable/logo1"/>
+
+
+</RelativeLayout>
